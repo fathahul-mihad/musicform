@@ -1,7 +1,7 @@
 
 body{
      font-family: 'Red Hat Display';
-    background: url(/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat center center/cover;
+    background: url(./images/pattern-background-desktop.svg) no-repeat center center/cover;
     height: 100vh;
     background-color:hsl(225, 100%, 94%);
     margin-bottom: -35%;
@@ -102,7 +102,7 @@ body{
 /* Mobile */
 @media(max-width:375px){
      body{
-          background: url(./order-summary-component-main/images/pattern-background-mobile.svg)no-repeat center center/cover;
+          background: url(./images/pattern-background-mobile.svg)no-repeat center center/cover;
           background-color:hsl(225, 100%, 94%);
           margin-bottom: -600px;
      }
