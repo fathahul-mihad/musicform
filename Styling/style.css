@@ -1,0 +1,109 @@
+
+body{
+     font-family: 'Red Hat Display';
+    background: url(/order-summary-component-main/images/pattern-background-desktop.svg) no-repeat center center/cover;
+    height: 100vh;
+    background-color:hsl(225, 100%, 94%);
+    margin-bottom: -35%;
+}
+
+.box{
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     max-width: 320px;
+     margin:50px auto;
+     border: solid 1px hsl(225, 100%, 98%);
+     height: 525px;
+     overflow: hidden;
+     border-radius: 25px;
+}
+.listening{
+    width: 320px;
+    
+}
+.summary{
+    font-size: 23px;
+}
+
+.content{
+     font-weight:500;
+     font-size: 16px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     line-height: 24px;
+     /* word-spacing: 1px; */
+     color:  hsl(224, 23%, 55%);
+}
+.premium{
+     margin: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     background:  hsl(225, 100%, 98%);
+     width: 80%;
+     padding: 10px 10px;
+     border-radius: 10px;
+     border:solid 1px hsl(225, 100%, 98%);
+
+}
+.logo{
+     text-align: left;
+     padding-top: 5px;
+}
+.price{
+     padding-right: 27px;
+     text-align: left;
+}
+.change{
+     text-align: right;
+     color:hsl(245, 75%, 52%) ;
+}
+.change:hover{
+     text-decoration: none;
+}
+.payment{
+     color: hsl(225, 100%, 98%);
+     background: hsl(245, 75%, 52%);
+     box-shadow: 0 10px 20px hsl(224, 23%, 55%);
+     width: 80%;
+     padding: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     cursor: pointer;
+}
+.payment:hover{
+     box-shadow: 0 10px 20px hsl(245deg 95% 64% / 30%);
+     background: hsl(245, 95%, 64%);
+}
+.primary-marging{
+     margin-top: 10px;
+}
+.secondary-marging{
+     margin-top: 30px;
+}
+
+.cancel{
+     text-decoration: none;
+     font-weight: 900;
+     font-size: 13px;
+     color:  hsl(224, 23%, 55%);
+}
+.dark{
+     color: hsl(223, 47%, 23%);
+     font-weight: 900;
+}
+
+/* Mobile */
+@media(max-width:375px){
+     body{
+          background: url(/order-summary-component-main/images/pattern-background-mobile.svg)no-repeat center center/cover;
+          background-color:hsl(225, 100%, 94%);
+          margin-bottom: -600px;
+     }
+}
