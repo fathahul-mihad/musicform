@@ -102,7 +102,7 @@ body{
 /* Mobile */
 @media(max-width:375px){
      body{
-          background: url(/order-summary-component-main/images/pattern-background-mobile.svg)no-repeat center center/cover;
+          background: url(./order-summary-component-main/images/pattern-background-mobile.svg)no-repeat center center/cover;
           background-color:hsl(225, 100%, 94%);
           margin-bottom: -600px;
      }
